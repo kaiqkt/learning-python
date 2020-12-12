@@ -9,3 +9,10 @@ if num1.isdigit() and num2.isdigit():
     print(num1 + num2)
 else:
     print('nao')
+
+try:
+    num1 = int(num1)
+    num2 = int(num2)
+    print(num1 + num2)
+except:
+    print('ERROR')
