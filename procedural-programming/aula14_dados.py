@@ -12,13 +12,13 @@ produtos = [
 pessoas = [
     {'nome': 'a', 'idade': 18},
     {'nome': 'b', 'idade': 22},
-    {'nome': 'c', 'idade': 42},
+    {'nome': 'c', 'idade': 16},
     {'nome': 'd', 'idade': 52},
     {'nome': 'e', 'idade': 30},
     {'nome': 'f', 'idade': 24},
     {'nome': 'g', 'idade': 35},
-    {'nome': 'h', 'idade': 33},
-    {'nome': 'i', 'idade': 32}
+    {'nome': 'h', 'idade': 14},
+    {'nome': 'i', 'idade': 16}
 ]
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
