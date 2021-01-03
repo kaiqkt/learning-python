@@ -15,7 +15,7 @@ class Cliente(Pessoa):
 
 class ClienteVip(Cliente):
     def __init__(self, nome, idade, sobrenome):
-        Pessoa.__init__(self, nome, idade)
+        super().__init__(nome, idade)
         self.sobrenome = sobrenome
 
     def falar(self):
