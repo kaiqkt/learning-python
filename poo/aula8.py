@@ -12,12 +12,17 @@ class Cliente(Pessoa):
     def comprar(self):
         print(f'{self.class_name} comprando...')
 
+
 class ClienteVip(Cliente):
+    def __init__(self, nome, idade, sobrenome):
+        Pessoa.__init__(self, nome, idade)
+        self.sobrenome = sobrenome
+
     def falar(self):
         super().falar()
         print("aaa")
 
 
-cliente = ClienteVip("Kaique", 19)
+cliente = ClienteVip("Kaique", 19, "Gomes")
 cliente.comprar()
 cliente.falar()
