@@ -1,5 +1,5 @@
-from classes.cp import ContaPoupanca
-from classes.cc import ContaCorrente
+from poo.classe_abstrata.classes.cp import ContaPoupanca
+from poo.classe_abstrata.classes.cc import ContaCorrente
 
 
 cp = ContaPoupanca(1111, 2222, 0)
